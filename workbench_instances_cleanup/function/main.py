@@ -7,7 +7,7 @@ def delete_terminated_workbench_instances(request):
     label_value = "workbench-instances"
 
     try:
-        print(f"🚀 Starting cleanup for project: {project_id}, label: {label_key}={label_value}")
+        print(f"🚀 Starting cleanup for project: {project_id}, label: {label_key}: {label_value}")
 
         compute = build('compute', 'v1')
         instances_to_delete = []
