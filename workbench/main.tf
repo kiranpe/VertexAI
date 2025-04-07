@@ -13,7 +13,7 @@ resource "google_workbench_instance" "default" {
   count = 2
 
   project  = "mlops-448320"
-  name     = "workbench-instance-examplei-${count.index}"
+  name     = "workbench-instance-example-${count.index}"
   location = "us-east1-b"
 
   gce_setup {
