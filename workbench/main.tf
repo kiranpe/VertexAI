@@ -33,8 +33,8 @@ resource "google_workbench_instance" "default" {
     network_interfaces {
       network = data.google_compute_network.my-network.id
       subnet  = data.google_compute_subnetwork.my-subnetwork.id
-	  }
+    }
 	
-	  disable_public_ip = true
+    disable_public_ip = true
   }
 }
