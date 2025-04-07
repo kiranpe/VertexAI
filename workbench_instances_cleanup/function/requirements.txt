@@ -1,0 +1,2 @@
+google-cloud-notebooks
+google-api-python-client
